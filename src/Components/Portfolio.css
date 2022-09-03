@@ -1,0 +1,66 @@
+.websitedevelopment img {
+  opacity: 0.75;
+}
+
+.websitedevelopment img:hover {
+  opacity: 1;
+}
+
+.graphicdesign img {
+  opacity: 1;
+}
+
+#dark .graphicdesign img:hover {
+  opacity: 0.8;
+  border: 2px solid wheat;
+  border-radius: 25px;
+}
+
+#light .graphicdesign img:hover {
+  opacity: 0.8;
+  border: 2px solid blue;
+  border-radius: 25px;
+}
+
+#dark .websitedevelopment h1 {
+  color: green;
+}
+
+#light .websitedevelopment h1 {
+  color: blue;
+}
+
+#dark .websitedevelopment {
+  background-color: black;
+}
+
+#light .websitedevelopment {
+  background-color: rgb(216, 216, 216);
+}
+
+#dark .videoediting h1 {
+  color: green;
+}
+
+#light .videoediting h1 {
+  color: blue;
+}
+
+#dark .graphicdesign h1 {
+  color: green;
+}
+
+#light .graphicdesign h1 {
+  color: blue;
+}
+
+/* Main Properties for dark and light mode */
+#dark {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+#light {
+  background-color: white;
+  color: black;
+}

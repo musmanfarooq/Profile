@@ -1,0 +1,9 @@
+.homepage img {
+    opacity: 1;
+}
+
+.homepage img:hover {
+    opacity: 0.8;
+    border: 2px solid wheat;
+    border-radius: 25px;
+  }

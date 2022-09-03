@@ -1,0 +1,115 @@
+.App {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* Properties for all elements */
+
+#dark .homepage {
+  background-image: url(./Pictures/homebackground.jpg);
+  background-repeat: no-repeat;
+}
+
+#light .homepage {
+  background-image: url(./Pictures/homebackground.jpg);
+  background-repeat: no-repeat;
+}
+
+#dark .homepage h5 {
+  color: green;
+}
+
+#light .homepage h5 {
+  color: green;
+}
+
+#dark .summary {
+  background-color: rgba(24, 24, 24);
+}
+
+#light .summary {
+  background-color: whitesmoke;
+}
+
+#dark .summary h3 {
+  color: green;
+}
+
+#light .summary h3 {
+  color: blue;
+}
+
+
+#dark .portfolio {
+  background-color: black;
+}
+
+#light .portfolio {
+  background-color: rgb(216, 216, 216);
+}
+
+#dark .portfolio h3 {
+  color: green;
+}
+
+#light .portfolio h3 {
+  color: blue;
+}
+
+
+#dark .services {
+  background-color: rgba(24, 24, 24);
+}
+
+#light .services {
+  background-color:whitesmoke;
+}
+
+#dark .services h3 {
+  color: green;
+}
+
+#light .services h3 {
+  color: blue;
+}
+
+#dark .contactme {
+  background-color: black;
+}
+
+#light .contactme {
+  background-color: rgb(216, 216, 216);
+}
+
+#dark .contactme h3 {
+  color: green;
+}
+
+#light .contactme h3 {
+  color: blue;
+}
+
+
+.switch {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+}
+
+.switch label {
+  justify-content: right;
+  align-items: center;
+  margin: 10px;
+}
+
+/* Main Properties for dark and light mode */
+#dark {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+#light {
+  background-color: white;
+  color: black;
+}
